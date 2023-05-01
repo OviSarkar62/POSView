@@ -55,11 +55,11 @@ Open http://localhost:3000 in your browser to access the application.
 
 The API for this project is RESTful and provides the following endpoints:
 
-GET /items: Returns a list of all items
-POST /items: Creates a new item
-GET /items/:id: Returns an item by ID
-PUT /items/:id: Updates an item by ID
-DELETE /items/:id: Deletes an item by ID
+       GET /items: Returns a list of all items
+       POST /items: Creates a new item
+       GET /items/:id: Returns an item by ID
+       PUT /items/:id: Updates an item by ID
+       DELETE /items/:id: Deletes an item by ID
 Each endpoint expects and returns data in JSON format.
 
 Client-side functionality
