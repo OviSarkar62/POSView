@@ -1,0 +1,118 @@
+#invoice-POS {
+  box-shadow: 0 0 1in -0.25in rgba(0, 0, 0, 0.5);
+  padding: 4mm;
+  margin: 0 auto;
+  width: 80mm;
+  background: #fff;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+::selection {
+  background: #f31544;
+  color: #fff;
+}
+::moz-selection {
+  background: #f31544;
+  color: #fff;
+}
+h1 {
+  font-size: 1.5em;
+  color: #222;
+}
+
+h3 {
+  font-size: 1em;
+  font-weight: 300;
+  line-height: 2em;
+}
+p {
+  font-size: 0.8rem;
+  font-weight: 500;
+  color: #666;
+  line-height: 1.2em;
+}
+
+#top,
+#mid,
+#bot {
+  /* Targets all id with 'col-' */
+  border-bottom: 1px solid #eee;
+}
+
+#top {
+  min-height: 100px;
+  background-color: #f7f7f7;
+  padding: 10px;
+}
+
+#bot {
+  min-height: 50px;
+  background-color: #f7f7f7;
+  padding: 10px;
+}
+
+.title {
+  text-align: center;
+  float: right;
+  font-size: 1rem;
+  font-weight: bold;
+}
+.title p {
+  text-align: center;
+}
+table {
+  width: 100%;
+  border: 1px solid #ccc;
+  margin-top: 0px;
+}
+th {
+  padding: 8px;
+  border-top: 1px solid#ccc;
+  border-left: 1px solid#ccc;
+  border-right: 1px solid#ccc;
+  font-size: 1.1rem;
+  font-weight: 700;
+}
+td {
+  padding: 8px;
+  border-top: 1px solid #ccc;
+  border-left: 1px solid#ccc;
+  border-right: 1px solid#ccc;
+  border-bottom: 1px solid #ccc;
+  font-size: 1rem;
+  font-weight: 500;
+}
+.payment h6,
+.payment h5 {
+  text-align: center;
+}
+
+.Rate.table-header h6,
+.Rate.table-header h5 {
+  text-align: center;
+}
+
+.tabletitle {
+  padding: 8px;
+  background: #eee;
+  text-align: center;
+  border: none;
+}
+
+.service td {
+  border-bottom: 1px solid #eee;
+  text-align: center;
+}
+.item {
+  width: 24mm;
+}
+.itemtext {
+  font-size: 0.9em;
+  font-weight: 500;
+}
+
+#legalcopy {
+  margin-top: 5mm;
+  font-size: 0.7em;
+  text-align: center;
+}

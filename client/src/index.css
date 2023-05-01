@@ -3,3 +3,116 @@
 body {
   font-family: "Orbitron", sans-serif;
 }
+
+.item-button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 5px;
+}
+
+.item-button button {
+  background-color: #1890ff;
+  color: #fff;
+  font-size: 16px;
+  font-weight: 600;
+  border: none;
+  border-radius: 8px;
+  padding: 2px 12px;
+  cursor: pointer;
+  margin-top: 10px;
+  margin-bottom: 0px;
+}
+
+.item-button button:hover {
+  background-color: white;
+  color: black;
+  border: 2px solid black;
+}
+
+.spinner {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 100;
+}
+
+.spinner-border {
+  height: 50px;
+  width: 50px;
+}
+
+.category {
+  border: 2px solid gray;
+  margin-right: 25px;
+  margin-bottom: 30px;
+  padding: 10px;
+  cursor: pointer;
+}
+
+.category img {
+  margin-left: 10px;
+}
+
+.category-active {
+  border: 2px solid gray;
+  background-color: rgba(128, 128, 128, 0.501);
+}
+
+/*register page*/
+
+.register-page {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 90vh;
+}
+
+.register-page form {
+  width: 400px;
+  background-color: #fff;
+  padding: 40px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+.register-page form .d-flex {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.register-page form .d-flex a {
+  color: #007bff;
+  text-decoration: none;
+}
+
+.register-page h1 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.register-page .ant-form-item {
+  margin-bottom: 20px;
+}
+
+.register-page .ant-form-item-label {
+  font-weight: bold;
+}
+
+.register-page .ant-form-item-explain {
+  color: #ff4d4f;
+}
+
+.register-page .ant-form-item-has-error .ant-input {
+  border-color: #ff4d4f;
+}
+
+.register-page .ant-form-item-has-error .ant-input:focus {
+  box-shadow: 0 0 0 2px rgba(255, 77, 79, 0.2);
+}
+
+.register-page .btn-primary {
+  width: 100%;
+}

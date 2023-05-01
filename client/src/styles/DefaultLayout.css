@@ -1,36 +1,73 @@
 /* DefaultLayout.css */
 
+/* Logo */
 .logo {
   height: 32px;
   margin: 16px;
   background: rgba(255, 255, 255, 0.3);
 }
 
+/* Content */
 .content {
   margin: 24px 16px;
   padding: 24px;
-  min-height: 680px;
+  min-height: 650px;
   background: #f0f2f5;
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
 }
 
+/* Sider */
 .ant-layout-has-sider {
   padding: 5px !important;
 }
 
 .ant-layout.ant-layout-has-sider {
-  height: 100vh;
+  min-height: 650px;
+  height: auto;
 }
 
 .ant-layout-sider {
   border-radius: 10px !important;
   padding-top: 10px !important;
+  background-color: #fff;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
 }
 
+/* Anticon */
 .anticon svg {
   height: 20px;
   width: 20px;
   font-size: 20px;
   display: flex;
   align-items: center;
+  margin-left: 10px;
+}
+
+/* Header */
+.ant-layout-header {
+  line-height: 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #fff;
+  padding: 0 16px;
+  height: 60px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Cart Item */
+.cart-item {
+  padding-left: 20px;
+  padding-right: 30px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+}
+
+.cart-item p {
+  font-size: 1rem;
+  margin-top: 13px;
+  font-weight: 700;
   margin-left: 10px;
 }

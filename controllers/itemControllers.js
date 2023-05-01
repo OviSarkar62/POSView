@@ -22,6 +22,38 @@ const addItemController = async (req, res, next) => {
       next(error); // pass the error to the error handler middleware
     }
   };
-  
 
-module.exports = { getItemController, addItemController}
+//update item
+const editItemController = async (req, res) => {
+  try {
+    const { itemId } = req.body;
+    console.log(itemId);
+    await itemModel.findOneAndUpdate({ _id: itemId }, req.body, {
+      new: true,
+    });
+
+    res.status(201).json("item Updated");
+  } catch (error) {
+    res.status(400).send(error);
+    console.log(error);
+  }
+};
+//delete item
+const deleteItemController = async (req, res) => {
+  try {
+    const { itemId } = req.body;
+    console.log(itemId);
+    await itemModel.findOneAndDelete({ _id: itemId });
+    res.status(200).json("item Deleted");
+  } catch (error) {
+    res.status(400).send(error);
+    console.log(error);
+  }
+};
+
+module.exports = {
+  getItemController,
+  addItemController,
+  editItemController,
+  deleteItemController,
+};
