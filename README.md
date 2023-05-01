@@ -14,7 +14,7 @@ To run this application, you will need the following:
 
 - Clone the project from the GitHub repository: 
 
-      git clone https://github.com/your-username/your-repo.git
+    git clone https://github.com/your-username/your-repo.git
     
 - Navigate to the project directory: 
 
