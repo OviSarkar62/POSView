@@ -79,10 +79,10 @@ Each endpoint expects and returns data in JSON format.
 
 The client-side of the application is a SPA built with React. The user interface provides the following functionality:
 
-- View a list of all items
-- Create a new item
-- Edit an existing item
-- Delete an item
+- View a list of all products, customers, and sales
+- Create a new product, customer, or sale
+- Edit an existing product, customer, or sale
+- Delete a product, customer, or sale
 
 The client utilizes Axios to make HTTP requests to the server-side API.
 
@@ -90,5 +90,8 @@ The client utilizes Axios to make HTTP requests to the server-side API.
 
 The server-side code includes error handling for common errors such as missing parameters or incorrect data types. Error messages are returned in messages as required.
 
+## Conclusion
+
+POSView is a functional web application with CRUD functionality for managing products, customers, and sales. The server-side API is
 
 
