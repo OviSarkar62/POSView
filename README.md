@@ -18,19 +18,19 @@ To run this application, you will need the following:
     
 - Navigate to the project directory: 
 
-        cd your-repo
+       cd your-repo
     
 - Install the dependencies for the server: 
 
-    npm install
+       npm install
     
 - Navigate to the client directory: 
 
-    cd client
+       cd client
     
 - Install the dependencies for the client: 
 
-    npm install
+       npm install
     
 - Create a .env file in the root directory with the following environment variables:
 
@@ -39,15 +39,15 @@ To run this application, you will need the following:
 
 - Start the server: 
 
-    npm run server
+       npm run server
     
 - In a new terminal window, navigate to the client directory:
 
-    cd client
+       cd client
     
 - Start the client: 
 
-    npm start
+       npm start
     
 Open http://localhost:3000 in your browser to access the application.
 
