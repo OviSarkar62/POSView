@@ -94,4 +94,6 @@ The server-side code includes error handling for common errors such as missing p
 
 POSView is a functional web application with CRUD functionality for managing products, customers, and sales. The server-side API is
 
+## Live Link
+The live project: [POSView](https://posview-backend.onrender.com)
 
