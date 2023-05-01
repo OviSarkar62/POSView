@@ -13,18 +13,23 @@ To run this application, you will need the following:
 ## Installation
 
 - Clone the project from the GitHub repository: 
-    git clone https://github.com/your-username/your-repo.git
+
+        git clone https://github.com/your-username/your-repo.git
     
 - Navigate to the project directory: 
-    cd your-repo
+
+        cd your-repo
     
 - Install the dependencies for the server: 
+
     npm install
     
 - Navigate to the client directory: 
+
     cd client
     
 - Install the dependencies for the client: 
+
     npm install
     
 - Create a .env file in the root directory with the following environment variables:
@@ -33,12 +38,15 @@ To run this application, you will need the following:
 2. JWT_SECRET: A secret key for JSON Web Tokens. This can be any string.
 
 - Start the server: 
+
     npm run server
     
 - In a new terminal window, navigate to the client directory:
+
     cd client
     
 - Start the client: 
+
     npm start
     
 Open http://localhost:3000 in your browser to access the application.
