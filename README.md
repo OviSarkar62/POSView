@@ -77,7 +77,7 @@ Each endpoint expects and returns data in JSON format.
 
 ## Client-side functionality
 
-The client-side of the application is a SPA built with React. The user interface provides the following functionality:
+The client-side of the application is built with React. The user interface provides the following functionality:
 
 - View a list of all products, customers, and sales
 - Create a new product, customer, or sale
