@@ -6,37 +6,37 @@ POSView is a web application built using the MERN stack, which includes MongoDB,
 
 - **Homepage**
 <p align="center">
-  <img alt="img-name" src="Images of POSView/Homepage.png" width="700">
+  <img alt="img-name" src="Images/Homepage.png" width="700">
 </p>
 
 - **Bills**
 <p align="center">
-  <img alt="img-name" src="Images of POSView/Bills.png" width="700">
+  <img alt="img-name" src="Images/Bills.png" width="700">
 </p>
 
 - **Items**
 <p align="center">
-  <img alt="img-name" src="Images of POSView/Items.png" width="700">
+  <img alt="img-name" src="Images/Items.png" width="700">
 </p>
 
 - **Add New Item**
 <p align="center">
-  <img alt="img-name" src="Images of POSView/Add New Item .png" width="700">
+  <img alt="img-name" src="Images/Add New Item .png" width="700">
 </p>
 
 - **Customers**
 <p align="center">
-  <img alt="img-name" src="Images of POSView/Customers.png" width="700">
+  <img alt="img-name" src="Images/Customers.png" width="700">
 </p>
 
 - **Cart**
 <p align="center">
-  <img alt="img-name" src="Images of POSView/Cart.png" width="700">
+  <img alt="img-name" src="Images/Cart.png" width="700">
 </p>
 
 - **Invoice**
 <p align="center">
-  <img alt="img-name" src="Images of POSView/Invoice Details.png" width="700">
+  <img alt="img-name" src="Images/Invoice Details.png" width="700">
 </p>
 
 ## Installation
