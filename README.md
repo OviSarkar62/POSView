@@ -38,6 +38,7 @@ POSView is a web application built using the MERN stack, which includes MongoDB,
 <p align="center">
   <img alt="img-name" src="Images of POSView/Invoice Details.png" width="700">
 </p>
+
 ## Installation
 
 - Clone the project from the GitHub repository: 
@@ -50,7 +51,7 @@ POSView is a web application built using the MERN stack, which includes MongoDB,
     
 - Install the dependencies for the server: 
 
-       npm install
+       npm install express dotenv cors colors body-parser bcrypt joi mongoose morgan nodemon zxcvbn
     
 - Navigate to the client directory: 
 
@@ -58,16 +59,17 @@ POSView is a web application built using the MERN stack, which includes MongoDB,
     
 - Install the dependencies for the client: 
 
-       npm install
+       npm install react-router-dom react-redux redux redux-thunk axios antd 
     
 - Create a .env file in the root directory with the following environment variables:
 
-1. MONGO_URI: The connection string for MongoDB. If using MongoDB Atlas, you can find this in the cluster details.
-2. SALT_ROUNDS: A salt value.
+       DB_URL = mongodb+srv://<user>:<pass>@cluster0.l17quyr.mongodb.net/database
+
+       SALT_ROUNDS = 10
 
 - Start the server: 
 
-       npm run server
+       node index.js
     
 - In a new terminal window, navigate to the client directory:
 
@@ -77,7 +79,7 @@ POSView is a web application built using the MERN stack, which includes MongoDB,
 
        npm start
     
-Open http://localhost:3000 in your browser to access the application.
+- Access the application. Open your web browser and visit http://localhost:3000 to access the application.
 
 ## API Endpoints
 
