@@ -14,8 +14,30 @@ POSView is a web application built using the MERN stack, which includes MongoDB,
   <img alt="img-name" src="Images of POSView/Bills.png" width="700">
 </p>
 
+- **Items**
+<p align="center">
+  <img alt="img-name" src="Images of POSView/Items.png" width="700">
+</p>
 
+- **Add New Item**
+<p align="center">
+  <img alt="img-name" src="Images of POSView/Add New Item.png" width="700">
+</p>
 
+- **Customers**
+<p align="center">
+  <img alt="img-name" src="Images of POSView/Customers.png" width="700">
+</p>
+
+- **Cart**
+<p align="center">
+  <img alt="img-name" src="Images of POSView/Cart.png" width="700">
+</p>
+
+- **Invoice**
+<p align="center">
+  <img alt="img-name" src="Images of POSView/Invoice Details.png" width="700">
+</p>
 ## Installation
 
 - Clone the project from the GitHub repository: 
