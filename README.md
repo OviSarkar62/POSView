@@ -2,13 +2,10 @@
 
 POSView is a web application built using the MERN stack, which includes MongoDB, Express, React, and Node.js. This application is designed to serve as a point of sale (POS) system, allowing users to manage products, customers, and sales.
 
-## Requirements
+## Project View
 
-To run this application, you will need the following:
-
-- Node.js installed on your system
-- MongoDB installed on your system or a MongoDB Atlas account
-- Internet connection
+- Register 
+Images of POSView/Register.png
 
 ## Installation
 
