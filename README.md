@@ -81,30 +81,6 @@ POSView is a web application built using the MERN stack, which includes MongoDB,
     
 - Access the application. Open your web browser and visit http://localhost:3000 to access the application.
 
-## API Endpoints
-
-The API for this project is RESTful and provides the following endpoints:
-
-       POST /api/users/register: Register a new user
-       POST /api/users/login: Log in an existing user
-       GET /api/products: Returns a list of all products
-       POST /api/products: Creates a new product
-       GET /api/products/:id: Returns a product by ID
-       PUT /api/products/:id: Updates a product by ID
-       DELETE /api/products/:id: Deletes a product by ID
-       GET /api/customers: Returns a list of all customers
-       POST /api/customers: Creates a new customer
-       GET /api/customers/:id: Returns a customer by ID
-       PUT /api/customers/:id: Updates a customer by ID
-       DELETE /api/customers/:id: Deletes a customer by ID
-       GET /api/sales: Returns a list of all sales
-       POST /api/sales: Creates a new sale
-       GET /api/sales/:id: Returns a sale by ID
-       PUT /api/sales/:id: Updates a sale by ID
-       DELETE /api/sales/:id: Deletes a sale by ID
-       
-Each endpoint expects and returns data in JSON format.
-
 ## Client-side functionality
 
 The client-side of the application is built with React. The user interface provides the following functionality:
@@ -116,9 +92,13 @@ The client-side of the application is built with React. The user interface provi
 
 The client utilizes Axios to make HTTP requests to the server-side API.
 
-## Error handling
+## Technologies Used
 
-The server-side code includes error handling for common errors such as missing parameters or incorrect data types. Error messages are returned in messages as required.
+- MongoDB - NoSQL database for storing data
+- Express - Backend framework for building RESTful APIs
+- React - Frontend framework for building user interfaces
+- Node.js - JavaScript runtime environment for building scalable server-side applications
+- Bcrypt - Password hashing library for secure password storage
 
 ## Conclusion
 
