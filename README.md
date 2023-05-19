@@ -102,7 +102,7 @@ The client utilizes Axios to make HTTP requests to the server-side API.
 
 ## Conclusion
 
-POSView is a functional web application with CRUD functionality for managing products, customers, and sales. The server-side API is
+POSView is a functional web application with CRUD functionality for managing products, customers, and sales. 
 
 ## Live Link
 The live project: [POSView](https://pos-view.vercel.app/login)
