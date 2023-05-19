@@ -92,7 +92,7 @@ The client-side of the application is built with React. The user interface provi
 
 The client utilizes Axios to make HTTP requests to the server-side API.
 
-## Technologies Used
+## Stack
 
 - MongoDB - NoSQL database for storing data
 - Express - Backend framework for building RESTful APIs
