@@ -7,6 +7,9 @@ POSView is a web application built using the MERN stack, which includes MongoDB,
 - Register 
 <img src="Images of POSView/Register.png" alt="Alt text" title="Register"  style="display: inline-block; margin: 0 auto; max-width: 300px">>
 
+- Login
+<img src="Images of POSView/Login.png" alt="Alt text" title="Register"  style="display: inline-block; margin: 0 auto; max-width: 300px">>
+
 ## Installation
 
 - Clone the project from the GitHub repository: 
