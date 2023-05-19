@@ -21,7 +21,7 @@ POSView is a web application built using the MERN stack, which includes MongoDB,
 
 - **Add New Item**
 <p align="center">
-  <img alt="img-name" src="Images of POSView/Add New Item.png" width="700">
+  <img alt="img-name" src="Images of POSView/Add New Item .png" width="700">
 </p>
 
 - **Customers**
